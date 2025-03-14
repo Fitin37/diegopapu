@@ -1,5 +1,5 @@
 const reseñasCon = {};
-import reseñasMOdel from "../models/reseñas.js";
+import reseñasMOdel from "../models/resenas.js";
 
 reseñasCon.getReseñas = async (req,res) =>{
     const Reseñas= await reseñasMOdel.find();

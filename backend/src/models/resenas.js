@@ -20,4 +20,4 @@ const reseñasSchema= new Schema({
     strict:false
 });
 
-export default model("reseñas",reseñasSchema);
+export default model("resenas",reseñasSchema);
